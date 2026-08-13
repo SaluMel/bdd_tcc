@@ -1,12 +1,12 @@
 {
   "name": "escola-backend",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.js",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
